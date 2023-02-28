@@ -3,11 +3,16 @@
 function renderLicenseBadge(license) {
   if (license !== "none") {
     return `![Github License](https://img.shields.io/badge/license-$(license)-yellowgreen.svg)`;
+  } return "";
+}
+
+// TODO: Create a function that returns the license link - this function checks if it is not 'none', and then returns a link to a license file
+function renderLicenseLink(license) {
+  if (license !== "none") {
+    return `\n* [License](./LICENSE)`;
   }
   return "";
 }
-
-// TODO: Create a function that returns the license link
 
 
 // If there is no license, return an empty string
