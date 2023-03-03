@@ -9,7 +9,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "Type the name of your project.",
+        message: "Type your project title.",
     },
 
     {
@@ -33,11 +33,45 @@ const questions = [
 
     {
         type: "input",
-        name: "usage",
-        message: "What coding languages were used in the creation of your project?",
+        name: "installation",
+        message: "What are the instructions for installing your project?",
     },
 
-    
+    {
+        type: "input",
+        name: "usage",
+        message: "Provide directions for usage of your project:",
+    },
+
+    {
+        type: "input",
+        name: "name",
+        message: "Please type your full first and last name.",
+    },
+
+    {
+        type: "input",
+        name: "email",
+        message: "Type your primary email address.",
+    },
+
+    {
+        type: "input",
+        name: "creator",
+        message: "What is your Github Username?",
+    },
+
+    {
+        type: "input",
+        name: "contributors",
+        message: "Please list all users that assisted with the creation of this project.",
+    },
+
+    {
+        type: "input",
+        name: "test",
+        message: "Please provide the testing instructions for this application.",
+    },  
 ];
 
 // TODO: Create a function to write README file
