@@ -83,7 +83,7 @@ function writeFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(responses) => {
         console.log("Generating Professional README File...");
-        writeFile("./dist/README.md", generateMarkdown({ ...responses }));
+        writeFile("./README.md", generateMarkdown({ ...responses }));
     }};
 
 // Function call to initialize app
