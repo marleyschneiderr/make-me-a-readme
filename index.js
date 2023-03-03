@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const fs = require("fs"); // file system in place, node module that deals with all files, typically needed in node applications 
-const inquirer = require("Inquirer"); // the software that we need to download to run this project 
+const inquirer = require("inquirer"); // the software that we need to download to run this project 
 const path = require("path"); // taking all of the const responses and putting them into generateMarkdown.js
-const generateMarkdown = require("./generateMarkdown"); // pulling what we create in generateMarkdown.js and putting it back in index.js 
+const generateMarkdown = require("./generateMarkdown.js"); // pulling what we create in generateMarkdown.js and putting it back in index.js 
 
 // TODO: Create an array of questions for user input
 const questions = [
