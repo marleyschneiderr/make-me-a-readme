@@ -28,7 +28,7 @@ const questions = [
     {
         type: "input",
         name: "require",
-        message: "Provide a list of your project dependancies here:",
+        message: "Provide a list of your project dependencies here:",
     },
 
     {
@@ -81,10 +81,11 @@ function writeFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(responses) => {
+    inquirer.prompt(questions).then((responses) => {
         console.log("Generating Professional README File...");
         writeFile("./README.md", generateMarkdown({ ...responses }));
-    }};
+      });
+    }
 
 // Function call to initialize app
 init();
