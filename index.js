@@ -34,7 +34,13 @@ const questions = [
         type: "list",
         name: "license",
         message: "Please select the license that is applicable to your project.",
-        choices: ["None", "MIT", "APACHE2.0", "MPL2.0", "Creative Commons", "Other"],
+        choices: [
+            "None", 
+            "MIT", 
+            "APACHE 2.0", 
+            "MPL 2.0", 
+            "Creative Commons", 
+            "Other"],
     },
 
     {
