@@ -53,6 +53,41 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title} 
 ${renderLicenseBadge(data.license)}
+## Description
+${data.description}
+
+## Live Application URL
+${data.link}
+
+## Screenshot of Live Application
+![alt-text](${data.screenshot})
+
+## Table of Contents
+* [Installation](#installation)
+* [Dependencies](#dependencies)
+* [Usage](#usage)
+* [Contributors](#contributors)
+* [Testing](#testing)
+* [Questions](#questions)
+
+## Installation
+${data.installation}
+
+## Dependencies 
+${data.require}
+
+## Usage
+${data.usage}
+
+## Contributors 
+${data.contributors}
+
+## Testing
+${data.test}
+
+## Questions
+If you have questions, please send them [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).`;
+}
 
 module.exports = generateMarkdown;
 
