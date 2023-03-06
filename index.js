@@ -31,7 +31,7 @@ const questions = [
     },
 
     {
-        type: "checkbox",
+        type: "list",
         name: "license",
         message: "Please select the license that is applicable to your project.",
         choices: ["None", "MIT", "APACHE2.0", "MPL2.0", "Creative Commons", "Other"],
