@@ -19,6 +19,18 @@ const questions = [
     },
 
     {
+        type: "input",
+        name: "screenshot",
+        message: "Please provide a relative path to the image you want to use to display a screenshot of your deployed application.",
+    },
+
+    {
+        type: "input",
+        name: "link",
+        message: "Please provide a live URL link where a user can access your deployed application.",
+    },
+
+    {
         type: "checkbox",
         name: "license",
         message: "Please select the license that is applicable to your project.",
@@ -45,20 +57,14 @@ const questions = [
 
     {
         type: "input",
-        name: "name",
-        message: "Please type your full first and last name.",
+        name: "creator",
+        message: "What is your Github Username?",
     },
 
     {
         type: "input",
         name: "email",
         message: "Type your primary email address.",
-    },
-
-    {
-        type: "input",
-        name: "creator",
-        message: "What is your Github Username?",
     },
 
     {
@@ -82,8 +88,8 @@ function writeFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log("Generating Professional README File...");
-        writeFile("./README.md", generateMarkdown({ ...responses }));
+        console.log("Generating Professional README File..."); // loading the readme file that is being generated after the prompts are entered
+        writeFile("./finalproduct/README.md", generateMarkdown({ ...responses })); // writes the readme file when function is completed 
       });
     }
 
