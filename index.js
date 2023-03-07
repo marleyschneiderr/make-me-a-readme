@@ -37,7 +37,7 @@ const questions = [
         choices: [
             "None", 
             "MIT", 
-            "APACHE 2.0", 
+            "Apache 2.0", 
             "MPL 2.0", 
             "Creative Commons", 
             "Other"],

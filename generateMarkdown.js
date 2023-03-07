@@ -45,7 +45,7 @@ function renderLicenseSection(license) {
   if (!licenseBadge && !licenseLink) {
     return '';
   }
-  return "## License\n\nThis project is licensed under the " +licenseLink + "license. " +licenseBadge;
+  return "## License\n\nThis project is licensed under the " +licenseLink + " license. " +licenseBadge;
 }
 
 
@@ -86,7 +86,6 @@ ${data.contributors}
 ## Testing
 ${data.test}
 
-## License
 ${renderLicenseSection(data.license)}
 
 ## Questions
