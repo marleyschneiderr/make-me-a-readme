@@ -67,6 +67,7 @@ ${data.link}
 * [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Contributors](#contributors)
+* [License](#license)
 * [Testing](#testing)
 * [Questions](#questions)
 
@@ -84,6 +85,9 @@ ${data.contributors}
 
 ## Testing
 ${data.test}
+
+## License
+${renderLicenseSection(data.license)}
 
 ## Questions
 If you have questions, please send them [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).`;
