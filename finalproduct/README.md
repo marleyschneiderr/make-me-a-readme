@@ -7,7 +7,7 @@ A basic Tic Tac Toe game created with HTML, CSS, and Javascript.
 https://playtictactoe.org/
 
 ## Screenshot of Live Application
-![Screenshot of Full Webpage](images/tic.png)
+![Screenshot of Full Webpage](../images/tic.png)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -35,7 +35,7 @@ No applicable testing instructions needed for this application.
 
 ## License
 
-This project is licensed under the [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license. ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
+This project is licensed under the [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license. ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)
 
 ## Questions
 If you have questions, please send them [here](mailto:marleysue@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/marleyschneiderr](https://github.com/marleyschneiderr).
