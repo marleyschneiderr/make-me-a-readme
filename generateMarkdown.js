@@ -4,13 +4,13 @@ function renderLicenseBadge(license) {
   if (license !== "None") {
     switch (license) {
       case 'MIT':
-        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+        return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
       case 'Creative Commons':
-        return '[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)';
+        return '![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)';
       case 'Apache 2.0':
-        return '[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+        return '![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)';
       case 'MPL 2.0':
-        return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+        return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)';
       default:
         return 'License information not available';
     }
