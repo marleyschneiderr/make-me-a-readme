@@ -1,10 +1,11 @@
 # Professional README.md Generator 
 No License
+
 ## Description
 A command-line tool that uses the Inquirer Package to dynamically build a professional README.md file from user input.
 
 ## Walkthrough Tutorial of Application
-https://drive.google.com/file/d/1WevqXI-iIwJnguwRnNru5Omh6dmkSE3F/view
+https://drive.google.com/file/d/1sOq39xGsokfRhCj_DMX-14dDmNhbA-GI/view
 
 ## Screenshot of Live Application
 ![alt-text](./images/readme-example.png)
@@ -28,6 +29,10 @@ To use this project, open a terminal from where you saved your cloned repository
 
 ## Contributors 
 N/A, Marley Schneider
+
+## License
+
+This project is licensed under the [ISC](https://opensource.org/license/isc-license-txt/) license. ![License: ISC](https://img.shields.io/badge/License-ISC-green.svg)
 
 ## Testing
 No testing instructions applicable for this application.
