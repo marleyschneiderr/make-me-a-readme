@@ -1,13 +1,13 @@
-# Professional README.md Generator 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Tic Tac Toe 
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 ## Description
-A command-line tool that uses the Inquirer package to dynamically build a professional README.md file from user input.
+A basic Tic Tac Toe game created with HTML, CSS, and Javascript.
 
 ## Live Application URL
-No live webpage for application.
+https://playtictactoe.org/
 
 ## Screenshot of Live Application
-![alt-text](./images/readme-example.png)
+![alt-text](./images/tic-tac-toe.png)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,23 +19,23 @@ No live webpage for application.
 * [Questions](#questions)
 
 ## Installation
-To install this project, clone this specific repository on GitHub and open it in your personal IDE. To install inquirer, run 'npm i inquirier'.
+To install this project, clone the repository from marleyschneiderr's Github page and run the code!
 
 ## Dependencies 
-N/A
+No dependencies!
 
 ## Usage
-To use this project, open a terminal from where you saved your cloned repository and type in 'node index.js' to get started.
+To use this project, grab a partner and click one at a time on different squares to try to get three in a row! 
 
 ## Contributors 
-N/A, Marley Schneider
+Spongebob Squarepants and Patrick Star
 
 ## Testing
-No testing applicable for this project.
+No applicable testing instructions needed for this application.
 
 ## License
 
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+This project is licensed under the [Creative Commons](https://creativecommons.org/licenses/by/4.0/) license. ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)
 
 ## Questions
-If you have questions, please send them [here](mailto:marleysue@gmail.colm?subject=[GitHub]%20Dev%20Connect) or visit [github/marleyschneiderr](https://github.com/marleyschneiderr).
+If you have questions, please send them [here](mailto:marleysue@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/marleyschneiderr](https://github.com/marleyschneiderr).
