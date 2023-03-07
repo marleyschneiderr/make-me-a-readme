@@ -7,7 +7,7 @@ A basic Tic Tac Toe game created with HTML, CSS, and Javascript.
 https://playtictactoe.org/
 
 ## Screenshot of Live Application
-![alt-text](tic.png)
+![Screenshot of Full Webpage](images/tic.png)
 
 ## Table of Contents
 * [Installation](#installation)
